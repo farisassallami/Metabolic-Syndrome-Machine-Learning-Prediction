@@ -8,9 +8,13 @@ Brief description of data
 - The following description of the data is divided into features of body vitals measurements abnormal waist circumference, triglycerides above 150, HDL cholesterol below 50 in women or 40 in men, history of hypertension and mildly elevated fasting blood sugar (100-125). Numerous other variables were added, such as uric acid, race, income, etc. that might contribute to the model but we will not sure, until we test the model.
 
 -The target is Metabolic Syndrome
+
 -One row represents a patient
+
 -This is a classification problem
+
 -There are 15 features
+
 -There are 2401 rows
 
 
@@ -118,7 +122,7 @@ Test Classification Report
 
 
 
-After running a GridSearchCV to opbtain opitmal parameters for the KNN model, the new accuracy of the Best KNN Model is the same at .76705 which is slightly higher than than the Un-Tuned KNN model.
+After running a GridSearchCV to opbtain opitmal parameters for the KNN model, the new accuracy of the Best KNN Model is the same at .76705 which is slightly higher than the Un-Tuned KNN model.
 
 -------------------------------------------------------
 
