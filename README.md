@@ -118,13 +118,13 @@ Test Classification Report
 
 
 
-After running a GridSearchCV to opbtain opitmal parameters for the KNN model, the new accuracy of the Best KNN Model is the same at .75 with the same type 1 & 2 error rates.
+After running a GridSearchCV to opbtain opitmal parameters for the KNN model, the new accuracy of the Best KNN Model is the same at .76705 which is slightly higher than than the Un-Tuned KNN model.
 
 -------------------------------------------------------
 
 ## Model Selection
 
-While the tuned KNN model had the same accuracy than the un-tuned KNN model at 75%, overall; the Random forest model had the highest accuracy of 87% and the Tuned Random Forest model had lowest type 1 & 2 errors than all other models.  For diagnosing metabolic syndrome, its best to have the lowest type 2 error where you minimize the mistake of telling a patient they are healthy while they are actually ill.  Therefore I chose the Tuned Random Forest model.
+While the tuned KNN model had the same accuracy than the Tuned KNN model at 76.705%, overall; the Random forest model had the highest accuracy of 87% and the Tuned Random Forest model had lowest type 1 & 2 errors than all other models.  For diagnosing metabolic syndrome, its best to have the lowest type 2 error where you minimize the mistake of telling a patient they are healthy while they are actually ill.  Therefore I chose the Tuned Random Forest model.
 
 --------------------------------------------------------
 
