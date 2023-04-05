@@ -73,8 +73,7 @@ Train Classification Report
            1       1.00      1.00      1.00       618
 
     accuracy                           1.00      1800
-   macro avg       1.00      1.00      1.00      1800
-weighted avg       1.00      1.00      1.00      1800
+
 
 Test Classification Report 
 
@@ -84,8 +83,7 @@ Test Classification Report
            1       0.85      0.76      0.80       204
 
     accuracy                           0.87       601
-   macro avg       0.86      0.84      0.85       601
-weighted avg       0.87      0.87      0.87       601
+   
 
 
 ![tuned random forest matrix](https://user-images.githubusercontent.com/111199631/230163019-cf4c8d26-5de2-4ad0-909e-c3c27d64c735.png)
@@ -104,8 +102,7 @@ Train Classification Report
            1       0.84      0.71      0.77       618
 
     accuracy                           0.85      1800
-   macro avg       0.85      0.82      0.83      1800
-weighted avg       0.85      0.85      0.85      1800
+  
 
 Test Classification Report 
 
@@ -115,8 +112,7 @@ Test Classification Report
            1       0.68      0.53      0.59       204
 
     accuracy                           0.75       601
-   macro avg       0.73      0.70      0.71       601
-weighted avg       0.75      0.75      0.75       601
+   
 
 
 ![knn matrix untuned](https://user-images.githubusercontent.com/111199631/230163664-7b608cd6-5729-4caf-8aba-25e2d4bbd824.png)
