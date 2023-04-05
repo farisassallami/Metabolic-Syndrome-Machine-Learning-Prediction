@@ -1,6 +1,6 @@
 # Metabolic-Syndrome
 - *Author: Faris Assallami*
-- 
+
 Source of data 
 - The dataset for analysis came from the NHANES initiative
 
