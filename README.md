@@ -55,7 +55,7 @@ We can see from the scatter plot above that there is a positive relationship bet
 
 ----------------------------------------------
 
-## Using Scatterplot to display the relationship of BMI vs Triglyceride-HDL ratio and Metabolic Syndrome.
+## Using Scatterplot to display the relationship of BoodGlucose vs Triglyceride-HDL ratio and Metabolic Syndrome.
 
 ![bmi triglycericde hdl ratio scatter](https://user-images.githubusercontent.com/111199631/230155309-6b58f343-3259-48e5-b0f6-11402d797f19.png)
 
