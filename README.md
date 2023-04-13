@@ -77,58 +77,62 @@ Train Classification Report
            1       1.00      1.00      1.00       618
 
     accuracy                           1.00      1800
-
+   
 
 Test Classification Report 
 
               precision    recall  f1-score   support
 
-           0       0.88      0.93      0.91       397
-           1       0.85      0.76      0.80       204
+           0       0.88      0.91      0.89       397
+           1       0.81      0.76      0.79       204
 
-    accuracy                           0.87       601
+    accuracy                           0.86       601
+   
    
 
-
-![tuned random forest matrix](https://user-images.githubusercontent.com/111199631/230163019-cf4c8d26-5de2-4ad0-909e-c3c27d64c735.png)
-
+![rftunems](https://user-images.githubusercontent.com/111199631/231800576-af6a93e1-a144-4a5b-9eed-a58f49ffa784.png)
 
 
 
 
---KNN Model--
+
+
+
+--Tuned KNN Model--
 
 Train Classification Report 
 
               precision    recall  f1-score   support
 
-           0       0.86      0.93      0.89      1182
-           1       0.84      0.71      0.77       618
+           0       0.85      0.92      0.89      1182
+           1       0.83      0.69      0.75       618
 
-    accuracy                           0.85      1800
-  
+    accuracy                           0.84      1800
+   
 
 Test Classification Report 
 
               precision    recall  f1-score   support
 
            0       0.78      0.87      0.82       397
-           1       0.68      0.53      0.59       204
+           1       0.68      0.53      0.60       204
 
-    accuracy                           0.75       601
+    accuracy                           0.76       601
+   
    
 
-![knnmatrix](https://user-images.githubusercontent.com/111199631/230166397-09ca2cfa-7f3e-434a-9089-08121ef9bdc6.png)
+![knntunems](https://user-images.githubusercontent.com/111199631/231801172-89edbb74-b3f2-4417-be1c-58eac9aa6ee7.png)
 
 
 
-After running a GridSearchCV to opbtain opitmal parameters for the KNN model, the new accuracy of the Best KNN Model is the same at .76705 which is slightly higher than the Un-Tuned KNN model.
+
+After running a GridSearchCV to opbtain opitmal parameters for the KNN model, the accuracy remained the same at 76%.
 
 -------------------------------------------------------
 
 ## Model Selection
 
-While the tuned KNN model had the same accuracy than the Tuned KNN model at 76.705%, overall; the Random forest model had the highest accuracy of 87% and the Tuned Random Forest model had lowest type 1 & 2 errors than all other models.  For diagnosing metabolic syndrome, its best to have the lowest type 2 error where you minimize the mistake of telling a patient they are healthy while they are actually ill.  Therefore I chose the Tuned Random Forest model.
+While the tuned KNN model had the same accuracy than the UN-Tuned KNN model at 76%, overall; the Tuned Random forest model had the highest accuracy of 86% and the Tuned Random Forest model had lowest type 1 & 2 errors than all other models.  For diagnosing metabolic syndrome, its best to have the lowest type 2 error where you minimize the mistake of telling a patient they are healthy while they are actually ill.  Therefore I chose the Tuned Random Forest model.
 
 --------------------------------------------------------
 
